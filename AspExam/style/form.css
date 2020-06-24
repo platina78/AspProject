@@ -1,0 +1,109 @@
+﻿@charset "utf-8";
+
+body {
+    background: #f3f0f1;
+    /*#ecf0f3*/
+}
+
+
+#login_wrap {
+    width: 525px;
+    height: 425px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;*/
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    padding-top: 30px;
+}
+
+#signup_wrap,#edit_wrap {
+    width: 525px;
+    height: 565px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    padding-top: 30px;
+}
+
+
+
+#login_wrap h2{
+    width:190px;
+    height:auto;
+    margin:0 auto;
+}
+#signup_wrap h2,#edit_wrap h2{
+    width: 210px;
+    height: auto;
+    margin: 0 auto;
+}
+#signup_wrap span,#edit_wrap span{
+    margin-left:65px;
+}
+
+/*input*/
+#login_id, #login_pw, #signup_id, #signup_pw, #signup_pw_check, #signup_email,#edit_id,#edit_pw,#edit_email,#edit_pw_check {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    width: 400px;
+    height: 50px;
+    border: none;
+    background: #f3f0f1;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+#btn_wrap{
+    width:330px;
+    margin:0 auto;
+}
+#btn_flex_wrap {
+    display:flex;
+    width: 330px;
+    margin: 0 auto;
+}
+
+#login_btn, #signup_btn,#add_user_btn{
+    margin-left:65px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size:20px;
+    border-radius:20px;
+    outline:none;
+}
+
+#edit_btn, #delete_btn {
+    margin-right:10px;
+    margin-left:10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+#login_btn {
+    margin-top: 30px;
+    background: #2f89fc;
+    box-shadow: 2px 2px 4px #5082c1, -2px -2px 4px #539fff, inset 2px 2px 4px #539fff, inset -2px -2px 4px #5082c1;
+    color: #fff;
+}
+#signup_btn {
+    margin-top: 30px;
+    background: #f3f0f1;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+#add_user_btn {
+    background: #2f89fc;
+    box-shadow: 2px 2px 4px #5082c1, -2px -2px 4px #539fff, inset 2px 2px 4px #539fff, inset -2px -2px 4px #5082c1;
+    color: #fff;
+}
+

@@ -1,0 +1,173 @@
+﻿@charset 'utf-8';
+
+
+#form1 {
+    flex: 1 auto;
+}
+
+#sidemenu {
+    float: left;
+    width: 16.66666666666667%;
+    background: #fff;
+}
+
+    #sidemenu ul {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+        #sidemenu ul li {
+            list-style:none;
+            width: 100%;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-left:30px;
+        }
+
+#user_wrap {
+    display: inline-block;
+    width: 80%;
+    float: none !important;
+    display: flex;
+    height: 115px;
+    margin: 0 auto;
+    margin-top:50px;
+    justify-content: center;
+    align-items: center;
+    background: #f3f0f1;
+    box-shadow:-6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+#user_view_icon {
+    text-transform: uppercase;
+    background: #dde1e7;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    margin-right: 20px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#user_view_id{
+    margin-right:30px;
+}
+
+
+#todo_btn, #programming_btn, #docs_btn {
+    background: transparent;
+    border: none;
+    width:80%;
+    text-align:left;
+    height:30px;
+}
+.font-bold{
+   font-size:15px;
+   font-weight:500;
+}
+
+#todo_section, #programming_section, #docs_section {
+    float: right;
+    width: 83.33333333%;
+    height: 100vh;
+    background: #f3f0f1;
+}
+
+
+
+.section_wrap{
+
+    width:80%;
+    height:inherit;
+    overflow:auto;
+    margin:0 auto;
+} .section_wrap h1{
+    font-size:40px;
+} #GridView1{
+    width:100%;
+    height:auto;
+} #GridView1 tr,th,td{
+    font-size:20px;
+    text-align:center;
+} #GridView1 td {
+    text-overflow: ellipsis;
+} .todo_contents{
+    width:40%;
+}
+/*모든 버튼*/
+#todo_add_btn, .select_btn_style, .edit_btn_style, .delete_btn_style, .update_btn_style, .cancel_btn_style, #compile_btn, #docs_save, #docs_delete, #docs_add,#logOut {
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    outline:none;
+    border:none;
+    border-radius:20px;
+    margin-left:10px;
+    margin-top:10px;
+}
+/*빨간 맛 버튼*/
+#logOut, .cancel_btn_style, .delete_btn_style, #docs_delete,#delete_btn {
+    background: #ff5959;
+    box-shadow: 2px 2px 4px #b13c3c, -2px -2px 4px #f78383, inset 2px 2px 4px #f78383, inset -2px -2px 4px #b13c3c;
+}
+/*파란 맛 버튼*/
+#todo_add_btn, .select_btn_style, #compile_btn, #docs_save,#edit_btn {
+    background: #2f89fc;
+    box-shadow: 2px 2px 4px #5082c1, -2px -2px 4px #539fff, inset 2px 2px 4px #539fff, inset -2px -2px 4px #5082c1;
+    color: #fff;
+}
+/*연두맛 버튼*/
+#docs_add, .edit_btn_style, .update_btn_style {
+    background: #4bc2c5;
+    box-shadow: 2px 2px 4px #5f9ea0, -2px -2px 4px #4dced1, inset 2px 2px 4px #4dced1, inset -2px -2px 4px #5f9ea0 ;
+    color: #fff;
+}
+/*노랑 맛 버튼*/
+.update_btn_style{
+    width:75px;
+}
+/*모든 input[text]*/
+#todo_add_title, #docs_title, #DropDownList1,.control_class {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: #f3f0f1;
+    box-shadow:-6px -6px 10px rgba(255, 255, 255, 0.2), 6px 6px 10px rgba(0, 0, 0, 0.05),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.1), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+} #DropDownList1{
+        text-overflow:ellipsis;
+    }
+/*programming*/
+#monaco {
+        width: 50%;
+        height: inherit;
+        float: left;
+    } #design{
+    width:50%;
+    height:inherit;
+    float:right;
+}
+/*docs*/
+#docs_frame{
+    width:inherit;
+    height:inherit;
+}
+
+
+
+.monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
+    background-color: #f3f0f1 !important;
+}
+.monaco-editor .margin {
+    background-color: #f3f0f1 !important;
+}
+
+
+
+
